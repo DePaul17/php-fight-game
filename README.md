@@ -1,10 +1,10 @@
 # Présentation
 
-Votre but est de développer un simulateur de combat entre 2 joueurs.
+Le but est de développer un simulateur de combat entre 2 joueurs.
 
 ## Production
 
-Vous devez travailler dans le répertoire **src/**.\
+Il faut travailler dans le répertoire **src/**.\
 La classe **Game** est le point d'entré d'une partie.\
 Le jeu se lance en console, via des tests unitaires.
 > php bin/kahlan
@@ -33,11 +33,11 @@ La méthode **Game->run()** est appelée une seul fois pour lancer l'intégralit
 A chaque tour, 
 le joueur 1 attaque le joueur 2. Puis le joueur 2 attaque le joueur 1,\
 Suivant la formule: **pv_j1 = pv_j1 - (attaque_j2 - def_j1)** \
-Vous devez afficher les points de vie de chacun, formaté comme suit:
+Il faut afficher les points de vie de chacun, formaté comme suit:
 > \<vie joueur 1> \<vie joueur 2>
 
 ## Fin
-Lorsque l'un des joueurs n'a plus de vie, vous devez afficher le nom du gagnant avec ses PV restants.
+Lorsque l'un des joueurs n'a plus de vie, on affiche le nom du gagnant avec ses PV restants.
 > \<nom gagnant> \<pv gagnant>
 
 
@@ -51,16 +51,6 @@ Lorsque l'un des joueurs n'a plus de vie, vous devez afficher le nom du gagnant 
 > Bob 15
 
 Note: Bob n'a pas eu le temps de se faire taper par Alice. Il reste donc à 15 pv
-
-# Notation
-
-Vous serez jugé sur votre qualité à produire un code propre, bien structuré, respectant de bonnes pratiques.\
-Mais aussi, sur votre capacité à créer des objets cohérents et biens nommés, effectuant une tâche ou un groupe de tâches bien précis.\
-Tout code redondant est éliminatoire.
-
-Conseils:
-* structurez votre solution avec un maximum de classes ( au moins 4)
-* s'inspirer d'un model MVC peut être une bonne idée, en prenant Game comme contrôleur
 
 # Exemple de class Game 
 
